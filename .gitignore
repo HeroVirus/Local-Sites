@@ -5,22 +5,22 @@
 #
 # Note: if you want to stage/commit WP core files
 # you can delete this whole section/until Configuration.
-/wp-admin
-/wp-content/index.php
-/wp-content/languages
-/wp-content/ai1wm-backups
-/wp-content/ewww
-/wp-content/plugins
-/wp-content/upgrade
-/wp-content/upgrade-temp-backup
-/wp-content/uploads
-/wp-content/themes/index.php
-/wp-includes
-/index.php
-/license.txt
-/readme.html
-/wp-*.php
-/xmlrpc.php
+wp-admin
+wp-content/index.php
+wp-content/languages
+wp-content/ai1wm-backups
+wp-content/ewww
+wp-content/plugins
+wp-content/upgrade
+wp-content/upgrade-temp-backup
+wp-content/uploads
+wp-content/themes/index.php
+wp-includes
+index.php
+license.txt
+readme.html
+wp-*.php
+xmlrpc.php
 
 # Configuration
 wp-config.php
@@ -29,10 +29,10 @@ wp-config.php
 *.log
 
 # htaccess
-/.htaccess
+.htaccess
 
 # assets
-/css/sourcemaps
+css/sourcemaps
 
 # All plugins
 #
