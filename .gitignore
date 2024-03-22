@@ -5,34 +5,37 @@
 #
 # Note: if you want to stage/commit WP core files
 # you can delete this whole section/until Configuration.
-wp-admin
-wp-content/index.php
-wp-content/languages
-wp-content/ai1wm-backups
-wp-content/ewww
-wp-content/plugins
-wp-content/upgrade
-wp-content/upgrade-temp-backup
-wp-content/uploads
-wp-content/themes/index.php
-wp-includes
-index.php
-license.txt
-readme.html
-wp-*.php
-xmlrpc.php
+mieruca/app/public/wp-admin
+mieruca/app/public/wp-content/index.php
+mieruca/app/public/wp-content/languages
+mieruca/app/public/wp-content/ai1wm-backups
+mieruca/app/public/wp-content/ewww
+mieruca/app/public/wp-content/plugins
+mieruca/app/public/wp-content/upgrade
+mieruca/app/public/wp-content/upgrade-temp-backup
+mieruca/app/public/wp-content/uploads
+mieruca/app/public/wp-content/themes/index.php
+mieruca/app/public/wp-includes
+mieruca/app/public/index.php
+mieruca/app/public/license.txt
+mieruca/app/public/readme.html
+mieruca/app/public/wp-*.php
+mieruca/app/public/xmlrpc.php
 
 # Configuration
-wp-config.php
+mieruca/app/public/wp-config.php
 
 # Log files
 *.log
 
 # htaccess
-.htaccess
+mieruca/app/public/.htaccess
 
 # assets
-css/sourcemaps
+mieruca/app/public/assets/css/sourcemaps
+mieruca/app/public/assets/img/
+# mieruca_html
+mieruca/app/public/mieruca_html/
 
 # All plugins
 #
