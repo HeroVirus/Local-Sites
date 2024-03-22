@@ -1,0 +1,125 @@
+@charset "UTF-8";
+/**
+ *
+ * page-privacy-policy.scss
+ *
+ */
+@media screen and (min-width: 1024px) {
+	.privacy-main {
+		padding-bottom: 44.3rem;
+	}
+}
+
+@media screen and (max-width: 1023px) {
+	.privacy-main {
+		padding-bottom: 23rem;
+	}
+}
+
+/* ------------------------------------------------------------
+ privacy-hero
+------------------------------------------------------------ */
+@media screen and (min-width: 1024px) {
+	.privacy-hero {
+		margin-top: 21rem;
+		margin-bottom: 14.5rem;
+	}
+}
+
+@media screen and (max-width: 1023px) {
+	.privacy-hero {
+		margin-top: 6.5rem;
+		margin-bottom: 7.6rem;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.privacy-hero .p-hero__title__ja {
+		width: 58.5rem;
+	}
+}
+
+@media screen and (max-width: 1023px) {
+	.privacy-hero .p-hero__title__ja {
+		width: 31.7rem;
+	}
+}
+
+/* ------------------------------------------------------------
+ privacy-section
+------------------------------------------------------------ */
+@media screen and (min-width: 1024px) {
+	.privacy-section {
+		margin-top: 8rem;
+	}
+}
+
+@media screen and (max-width: 1023px) {
+	.privacy-section {
+		margin-top: 5.2rem;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.privacy-section + .privacy-section {
+		margin-top: 4.5rem;
+	}
+}
+
+.privacy-section__title {
+	color: var(--color-main2);
+	font-weight: 700;
+}
+
+@media screen and (min-width: 1024px) {
+	.privacy-section__title {
+		font-size: var(--font-size20);
+	}
+}
+
+.privacy-section__editor {
+	font-weight: 400;
+}
+
+@media screen and (min-width: 1024px) {
+	.privacy-section__editor {
+		margin-top: 2.2rem;
+	}
+}
+
+@media screen and (max-width: 1023px) {
+	.privacy-section__editor {
+		margin-top: 1.5rem;
+	}
+}
+
+.privacy-section__editor > * + * {
+	margin-top: 2.25em;
+}
+
+.privacy-section__table {
+	margin-top: 1em;
+}
+
+.privacy-section__table dl {
+	display: flex;
+	align-items: baseline;
+}
+
+.privacy-section__table dl + dl {
+	margin-top: 1em;
+}
+
+.privacy-section__table dt span {
+	display: flex;
+	align-items: baseline;
+}
+
+.privacy-section__table dt span::after {
+	content: '：';
+}
+
+.privacy-section__table dd {
+	flex: 1;
+}
+/*# sourceMappingURL=sourcemaps/page-privacy-policy.css.map */

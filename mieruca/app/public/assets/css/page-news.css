@@ -1,0 +1,108 @@
+/**
+ *
+ * page-home.scss
+ *
+ */
+@media screen and (min-width: 1024px) {
+	.news-main,
+	.news-single-main {
+		padding-bottom: 42.6rem;
+	}
+}
+
+@media screen and (max-width: 1023px) {
+	.news-main,
+	.news-single-main {
+		padding-bottom: 17.5rem;
+	}
+}
+
+/* ------------------------------------------------------------
+ news-hero
+------------------------------------------------------------ */
+@media screen and (min-width: 1024px) {
+	.news-hero {
+		margin-top: 11.4rem;
+		margin-bottom: 13rem;
+	}
+}
+
+@media screen and (max-width: 1023px) {
+	.news-hero {
+		margin-top: 6rem;
+		margin-bottom: 6.7rem;
+	}
+}
+
+@media screen and (max-width: 1023px) {
+	.news-side {
+		margin-top: 9rem;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.news-hero .p-hero__title__ja,
+	.news-single-hero .p-hero__title__ja {
+		width: 22.9rem;
+	}
+}
+
+@media screen and (max-width: 1023px) {
+	.news-hero .p-hero__title__ja,
+	.news-single-hero .p-hero__title__ja {
+		width: 15.4rem;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.news-hero .p-hero__title__en,
+	.news-single-hero .p-hero__title__en {
+		margin-top: 3.7rem;
+	}
+}
+
+/* ------------------------------------------------------------
+ news-single-hero
+------------------------------------------------------------ */
+@media screen and (min-width: 1024px) {
+	.news-single-hero {
+		margin-top: 11.4rem;
+		margin-bottom: 7.7rem;
+	}
+}
+
+@media screen and (max-width: 1023px) {
+	.news-single-hero {
+		margin-top: 5.8rem;
+		margin-bottom: 8.5rem;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.news-single-side {
+		margin-top: 5.2rem;
+	}
+}
+
+@media screen and (max-width: 1023px) {
+	.news-single-side {
+		margin-top: 10rem;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.news-single-pagination {
+		margin-top: 30.8rem;
+	}
+}
+
+@media screen and (max-width: 1023px) {
+	.news-single-pagination {
+		margin-top: 7.5rem;
+	}
+}
+
+/* ------------------------------------------------------------
+ news-content
+------------------------------------------------------------ */
+/*# sourceMappingURL=sourcemaps/page-news.css.map */

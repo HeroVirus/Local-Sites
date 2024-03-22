@@ -1,0 +1,177 @@
+@charset "UTF-8";
+/**
+ *
+ * wp-admin.scss
+ *
+ * 管理画面 カスタマイズ SCSS
+ *
+ */
+/* ------------------------------------------------------------
+ login
+ ログイン画面
+------------------------------------------------------------ */
+body.login {
+	background-color: #ffffff;
+}
+
+body.login h1 {
+	width: 245px;
+	height: 48px;
+	margin: 0 auto 40px;
+}
+
+body.login h1 a {
+	display: block;
+	width: 100%;
+	height: 100%;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	position: relative;
+	text-align: left;
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-image: url("../img/common/logo.svg");
+	pointer-events: none;
+}
+
+/* ------------------------------------------------------------
+ is-load
+------------------------------------------------------------ */
+/**
+ * 公開・更新ボタン、プレビューボタン、カテゴリーをloadするまでオフ
+ */
+body:not(.is-load) #publish,
+body:not(.is-load) #post-preview,
+body:not(.is-load) .categorychecklist {
+	opacity: .2;
+	pointer-events: none;
+}
+
+/**
+ * スマートカスタムフィールドの説明は、jsで改行を制御しているため、loadまで非表示
+ */
+body:not(.is-load) .description {
+	opacity: .025;
+	display: none;
+}
+
+/* ------------------------------------------------------------
+ サイドナビゲーション
+------------------------------------------------------------ */
+/* ---------- カテゴリ ---------- */
+.category-tabs li.hide-if-no-js {
+	display: none;
+}
+
+/* ---------- 親カテゴリー ---------- */
+/* ---------- カテゴリ説明 ---------- */
+.term-description-wrap {
+	display: none;
+}
+
+/* ------------------------------------------------------------
+ 投稿画面
+------------------------------------------------------------ */
+/* ---------- Worksではビジュアルエディタを非表示 ---------- */
+/* SCFのリッチエディタのカスタマイズの兼ね合いから、CSSで非表示 */
+.post-type-works #postdivrich {
+	display: none;
+}
+
+/* ---------- カテゴリー ---------- */
+#category-adder {
+	display: none;
+}
+
+/* ---------- パーマリンク ---------- */
+.post-type-attachment #edit-slug-box {
+	display: none;
+}
+
+/* ---------- アイキャッチ ---------- */
+.post-type-page #postimagediv {
+	display: none;
+}
+
+/* ---------- SCF ---------- */
+[data-size="130_130_thumbnail"] {
+	max-width: 130px;
+}
+
+[data-size="170_170_thumbnail"] {
+	max-width: 170px;
+}
+
+[data-size="220_180_thumbnail"] {
+	max-width: 220px;
+}
+
+[data-size="360_294_thumbnail"] {
+	max-width: 360px;
+}
+
+[data-size="360_300_thumbnail"] {
+	max-width: 360px;
+}
+
+[data-size="400_300_thumbnail"] {
+	max-width: 400px;
+}
+
+[data-size="500_400_thumbnail"] {
+	max-width: 500px;
+}
+
+[data-size="620_496_thumbnail"] {
+	max-width: 620px;
+}
+
+[data-size="720_free_contents"] {
+	max-width: 720px;
+}
+
+[data-size="1200_550_hero"] {
+	max-width: 1200px;
+}
+
+/* ------------------------------------------------------------
+ カラム
+------------------------------------------------------------ */
+/* ---------- サムネイル ---------- */
+.column-thumbnail,
+.column-scf-member_thumbnail {
+	width: 10%;
+}
+
+.column-thumbnail img,
+.column-scf-member_thumbnail img {
+	max-width: 150px;
+	width: 100%;
+	height: auto;
+}
+
+.column-thumbnail a,
+.column-scf-member_thumbnail a {
+	transition: opacity 200ms ease;
+}
+
+@media (hover: hover) {
+	.column-thumbnail a:hover,
+	.column-scf-member_thumbnail a:hover {
+		opacity: .5;
+	}
+}
+
+/* ---------- 作成者 ---------- */
+#authordiv,
+.inline-edit-author {
+	display: none !important;
+}
+
+/* ---------- SCF ---------- */
+.column-scf-works_client {
+	width: 15%;
+}
+/*# sourceMappingURL=sourcemaps/wp-admin.css.map */

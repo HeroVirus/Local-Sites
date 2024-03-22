@@ -1,0 +1,5 @@
+[
+  "apng-canvas.min.js",
+  "budoux-ja.min.js",
+  "swiper-bundle.min.js"
+]

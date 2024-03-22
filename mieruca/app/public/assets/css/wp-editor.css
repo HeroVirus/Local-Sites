@@ -1,0 +1,31 @@
+@charset "UTF-8";
+/**
+ *
+ * wp-editor.scss
+ *
+ * ログイン画面 編集アカウント管理画面用 SCSS
+ *
+ */
+/* ------------------------------------------------------------
+ 非表示
+------------------------------------------------------------ */
+/* ---------- プロフィール ---------- */
+#menu-users {
+	display: none;
+}
+
+/* ---------- 作成者 ---------- */
+.column-author {
+	display: none !important;
+}
+
+/* ---------- パーマリンク 編集 ---------- */
+#edit-slug-buttons {
+	display: none;
+}
+
+/* ---------- Enable Media Replace ---------- */
+.misc-pub-uploadedby {
+	display: none;
+}
+/*# sourceMappingURL=sourcemaps/wp-editor.css.map */

@@ -1,0 +1,68 @@
+/**
+ *
+ * wp-visual-editor.scss
+ *
+ *
+ */
+/* ------------------------------------------------------------
+ wp-visual-editor
+------------------------------------------------------------ */
+html {
+	font-size: 62.5% !important;
+}
+
+body.wp-visual-editor {
+	box-sizing: border-box;
+	height: auto !important;
+	min-height: auto !important;
+	padding-top: 50px !important;
+	padding-bottom: 50px !important;
+	padding-left: 50px !important;
+	padding-right: 50px !important;
+	margin: 0 !important;
+}
+
+body.wp-visual-editor::after {
+	content: '';
+	display: block;
+	width: 100%;
+	height: 1px;
+}
+
+body.wp-visual-editor.news-single-main {
+	color: var(--color-main);
+}
+
+@media screen and (min-width: 1024px) {
+	body.wp-visual-editor.news-single-main {
+		font-size: var(--font-size16);
+		--line-height: calc( 34 / 16 );
+	}
+}
+
+@media screen and (max-width: 1023px) {
+	body.wp-visual-editor.news-single-main {
+		font-size: var(--font-size12);
+		--line-height: calc( 25 / 12 );
+	}
+}
+
+body.wp-visual-editor.works-single-free {
+	background-color: var(--color-main2);
+	color: var(--color-txt2);
+}
+
+@media screen and (min-width: 1024px) {
+	body.wp-visual-editor.works-single-free {
+		font-size: var(--font-size16);
+		--line-height: calc( 34 / 16 );
+	}
+}
+
+@media screen and (max-width: 1023px) {
+	body.wp-visual-editor.works-single-free {
+		font-size: var(--font-size12);
+		--line-height: calc( 25 / 12 );
+	}
+}
+/*# sourceMappingURL=sourcemaps/wp-visual-editor.css.map */
