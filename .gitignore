@@ -56,5 +56,6 @@ mieruca/app/public/mieruca_html/
 logs
 conf
 sql
+_WP-BackUp
 
 ##macからpush 再度
